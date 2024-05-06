@@ -25,6 +25,7 @@ You can open a local Git repository or clone a remote repository:
 
     -   Click "Open Folder."
     -   Navigate to the folder where your local Git repository is located.
+    -   If you cloned the directory already it will have been saved locally.
     -   Select the folder and click "Open."
     -   VSCode will load the repository, showing its contents in the "Explorer" view and its branches in the "Source Control" view.
 -   Clone a Remote Repository
@@ -57,10 +58,6 @@ To open the repository directory, you can:
     -   Open the VSCode terminal by selecting "Terminal" > "New Terminal" from the top menu.
 
     -   Navigate to your repository's directory with the `cd` command:
-
-        bash
-
-        Copy code
 
         `cd path/to/your/repository`
 
