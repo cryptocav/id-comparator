@@ -16,7 +16,7 @@ Prerequisites
 
 To run this script, you need:
 
--   Python 3 or later
+-   Python 
 -   JSON files with an `id` key
 
 Usage
@@ -24,7 +24,7 @@ Usage
 
 To use the script, run the following command in your terminal, providing the paths to the original and updated JSON files:
 
-`python3 compareids.py original.json updated.json`
+`python compareids.py original.json updated.json`
 
 Replace `original.json` with the path to your original JSON file and `updated.json` with the path to the updated JSON file.
 
@@ -38,7 +38,7 @@ When you run the script, it displays:
 -   A list of removed IDs, if any.
 -   A warning message if the total count stays the same while some IDs have been removed.
 
-Example Output
+Example output
 --------------
 
 Here is an example of what the output might look like:
@@ -60,7 +60,7 @@ Warning: Total count remains the same, but IDs have been removed. This could ind
 
 In this example, the script finds no removed IDs but lists a set of added IDs. It also issues a warning if ID switching is suspected.
 
-Error Handling
+Error handling
 --------------
 
 If there's an error loading the JSON files, the script outputs an error message and exits. This can happen due to:
