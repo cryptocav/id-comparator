@@ -47,11 +47,8 @@ Example Output
 
 Here is an example of what the output might look like:
 
-text
-
-Copy code
-
-`Number of unique IDs in 'original.json': 5534
+```text
+Number of unique IDs in 'original.json': 5534
 Number of unique IDs in 'updated.json': 5555
 
 IDs removed:
@@ -62,7 +59,8 @@ IDs added:
 
 No IDs were removed.
 
-Warning: Total count remains the same, but IDs have been removed. This could indicate ID switching.`
+Warning: Total count remains the same, but IDs have been removed. This could indicate ID switching.
+```
 
 In this example, the script finds no removed IDs but lists a set of added IDs. It also issues a warning if ID switching is suspected.
 
