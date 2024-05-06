@@ -73,7 +73,3 @@ Contribution
 
 If you'd like to contribute to this script, feel free to submit pull requests or report issues on GitHub (if applicable). Feedback and suggestions are always welcome.
 
-License
--------
-
-Include the appropriate license information if applicable.
