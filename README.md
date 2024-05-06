@@ -24,10 +24,6 @@ Usage
 
 To use the script, run the following command in your terminal, providing the paths to the original and updated JSON files:
 
-bash
-
-Copy code
-
 `python3 compareids.py original.json updated.json`
 
 Replace `original.json` with the path to your original JSON file and `updated.json` with the path to the updated JSON file.
