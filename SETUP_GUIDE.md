@@ -104,11 +104,6 @@ To pull the repository, you need its GitHub URL. With Git installed, follow thes
 
 -   Navigate to a directory where you want to clone the repository. For example, to navigate to the Desktop, use:
 
-    `cd ~/Desktop`
-
--   Clone the repository using the URL (replace `REPO_URL` with the actual URL):
--   You will find the URL on the main Github page, copy it using the green 'Code' button. 
-
     `git clone REPO_URL`
 
 ### 3\. Navigate to the Repository Directory
